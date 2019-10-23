@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap");
+body {
+  font-family: 'Julius Sans One';
+  color: #325050; }
+
+.navbar {
+  height: 300px;
+  font-family: 'Julius Sans One';
+  opacity: 0.98;
+  border-top: solid 12px rgba(19, 67, 71, 0.8);
+  box-shadow: inset 0px 0px 100px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 25px #2d632d;
+  background: 50% 0 url(../img/huntington.jpg) no-repeat;
+  background-attachment: fixed, fixed, fixed, scroll;
+  background-image: url(../img/contours.png), url(http://csszengarden.com/214/noise.png), url(../img/gridlines.png), url(../img/huntington.jpg);
+  background-position: 0 0, 0 0, -5px -25px, 0 50%;
+  background-repeat: repeat, repeat, repeat, no-repeat;
+  background-size: auto, auto, auto, cover; }
+  .navbar .nav-item {
+    font-size: 1.2rem;
+    padding-left: 20px; }
+    .navbar .nav-item a {
+      color: #fff !important; }
+  .navbar .container {
+    width: 100vw !important; }
+    .navbar .container h3 {
+      font-size: 150%;
+      color: #fff; }
+  .navbar .custom-toggler.navbar-toggler {
+    border-color: #ff66cb; }
+  .navbar .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+
+#showcase {
+  position: relative;
+  color: #325050;
+  background: url("../img/counters-opaque.png"), url(../img/gridlines-opaque.png), url(../img/bamboo.png);
+  background-repeat: repeat, repeat, no-repeat;
+  background-size: auto, auto, cover;
+  background-attachment: scroll, scroll, fixed;
+  background-color: rgba(138, 188, 159, 0.5);
+  min-height: 600px; }
+  #showcase .primary-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    #showcase .primary-overlay img {
+      max-height: 600px; }
+
+#newsletter input {
+  border-radius: 0px; }
+
+#newsletter button {
+  border-radius: 0px; }
+
+#boxes .card {
+  border-color: #325050; }
+  #boxes .card .card-body h3 {
+    color: #325050;
+    font-weight: 400;
+    font-size: 30px;
+    font-size-adjust: inherit; }
+  #boxes .card .card-body p {
+    color: #2d632d; }
+
+#about {
+  position: relative;
+  color: #325050;
+  background: url("../img/counters-opaque.png"), url(../img/gridlines-opaque.png), url(../img/bamboo.png);
+  background-repeat: repeat, repeat, no-repeat;
+  background-size: auto, auto, cover;
+  background-attachment: scroll, scroll, fixed;
+  background-color: rgba(138, 188, 159, 0.5);
+  min-height: 600px; }
+  #about .info-header {
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px #325050 solid; }
+    #about .info-header p {
+      color: #2d632d; }
+  #about #accordion .card {
+    margin-bottom: 1px;
+    border-color: #325050; }
+    #about #accordion .card .card-header {
+      color: #325050;
+      border-color: #325050; }
+    #about #accordion .card .card-header a {
+      color: #325050; }
+    #about #accordion .card .card-header a:hover {
+      text-decoration: none; }
+    #about #accordion .card .card-block {
+      color: #2d632d; }
+
+#authors img {
+  margin-top: -50px; }
+
+#authors .fa {
+  font-size: 25px; }
+
+#authors .card {
+  border-color: #325050;
+  color: #325050; }
+  #authors .card p {
+    color: #2d632d; }
+
+#authors .card:hover {
+  background: url("../img/counters-opaque.png"), url(../img/gridlines-opaque.png), url(../img/bamboo.png);
+  background-repeat: repeat, repeat, no-repeat;
+  background-size: auto, auto, cover;
+  background-attachment: scroll, scroll, fixed;
+  background-color: rgba(138, 188, 159, 0.5); }
+  #authors .card:hover .fa {
+    color: #fff; }
+
+#contact {
+  background: url("../img/counters-opaque.png"), url(../img/gridlines-opaque.png), url(../img/bamboo.png);
+  background-repeat: repeat, repeat, no-repeat;
+  background-size: auto, auto, cover;
+  background-attachment: scroll, scroll, fixed;
+  background-color: rgba(138, 188, 159, 0.5); }
